@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;700&display=swap');
+:root{
+  --backColor--:hsl(207, 26%, 17%);
+  --textColor--:hsl(200, 15%, 8%);
+  --elementsBackColor--:hsl(0, 0%, 100%);
+  --inputTextColor--:hsl(0, 0%, 52%);
+}
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+   font-weight: 300 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backColor--) !important;
+  color: var(--textColor--);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+b{
+  font-weight: 600 !important;
+}
+
+h5,h3{
+  font-weight: 700 !important;
+}
+header,main,.card,body,input,label{
+  transition: all 0.5s ease-in-out !important;
+}

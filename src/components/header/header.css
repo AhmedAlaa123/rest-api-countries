@@ -1,0 +1,18 @@
+.header{
+    padding: 15px 5px;
+    background-color: var(--elementsBackColor--);
+    color:var(--textColor--)
+
+}
+.header .brand {
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+.header .mode{
+    cursor: pointer;
+    font-weight: 600;
+}
+.fa-sun{
+    color: gold;
+    text-shadow: 0 0 5px gold;
+}

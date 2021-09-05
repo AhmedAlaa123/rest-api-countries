@@ -1,0 +1,53 @@
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.container{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+form{ position: relative; }
+input[type='text']{
+    min-width: 350px;
+    padding-left: 40px;
+    border: none;
+    background-color: var(--elementsBackColor--) !important;
+    color: var(--inputTextColor--) !important;
+}
+label{
+    position: absolute;
+    z-index: 90;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+    background-color:transparent;
+}
+.dropdown-menu,.dropdown-menu >.dropdown-item{ cursor: pointer; }
+
+.dropdown-menu,.dropdown-menu >.dropdown-item,
+label,.country-data { color:var(--textColor--) }
+
+.dropdown-menu,.dropdown-menu >.dropdown-item,
+.country-data{ background-color: var(--elementsBackColor--)!important}
+
+.my-text-14px{ font-size: 14px; }
+
+.country-data{
+    padding: 0 !important;
+    cursor: pointer;
+    position: relative;
+}
+
+@media (min-width: 768px)
+{.country-data.col-md-4 {
+    flex: 0 0 30.333333%;
+    max-width: 30.333333%;
+}}
+@media (min-width: 992px)
+{.country-data.col-lg-3 {
+    flex: 0 0 22%;
+    max-width: 22%;
+}}
+
+
