@@ -18,11 +18,11 @@ class  App extends React.Component {
        <BrowserRouter>
           <Header/>
           <Switch>
-            <Route exact path='/countries-rest/' render ={props=><HomePage data={props}/>}/>
-            <Route exact path='/countries-rest/page-not-found' component={PageNotFound}/>
-            <Route path='/countries-rest/:country' render ={props=><DetailsPage data={props}/>}/>
-            <Redirect exact from='/' to ='/countries-rest/' />
-            <Redirect to='/countries-rest/page-not-found/'/>
+            <Route exact path='/rest-api-countries/' render ={props=><HomePage data={props}/>}/>
+            <Route exact path='/rest-api-countries/page-not-found' component={PageNotFound}/>
+            <Route path='/rest-api-countries/:country' render ={props=><DetailsPage data={props}/>}/>
+            <Redirect exact from='/' to ='/rest-api-countries/' />
+            <Redirect to='/rest-api-countries/page-not-found/'/>
           </Switch>
        </BrowserRouter>
     );
