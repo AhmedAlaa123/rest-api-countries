@@ -56,7 +56,7 @@ class HomePage extends Component {
     // this method used to handel card click and go to details page
     goToDetailsPage=(country)=>{
         this.props.AddCountry(country); // add country to the store redux
-        this.props.data.history.replace(`/countries-rest/${country.name}`) 
+        this.props.data.history.replace(`/rest-api-countries/${country.name}`) 
     }
     // this method used to filter countries using region or continent
     handelFilterUsingRegion=event=>{

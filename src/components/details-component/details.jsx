@@ -25,9 +25,10 @@ class DetailsPage extends React.Component{
         
         
     }
+    // this method used to go to home page
     handelBack=e=>{
      // go back to home page
-        this.props.data.history.replace('/countries-rest/')
+        this.props.data.history.replace('/rest-api-countries/')
       
     }
    
